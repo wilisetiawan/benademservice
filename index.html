@@ -5,8 +5,8 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <!-- Bootstrap CSS -->
-    <link href="bootstrap.min.css" rel="stylesheet" />
-    <link rel="stylesheet" href="style.css" />
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="css/style.css" />
     <title>Benadem Service</title>
   </head>
   <body>
@@ -16,7 +16,7 @@
       <nav class="navbar navbar-expand-lg navbar-light fixed-top bg-white shadow-sm">
         <div class="container col-10 py-2">
           <a class="navbar-brand" href="index.html">
-            <img src="img/logo-benadem.png" class="logo img-fluid" alt="Benadem Service" width="300px" />
+            <img src="../img/logo-benadem.png" class="navbar-brand logo" alt="Benadem Service" width="250"/>
           </a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -70,10 +70,10 @@
     <!-- Main -->
     <main class="pt-5">
       <div class="container col-xl-10">
-        <h4 class="pb-3">Service</h4>
+        <h4 class="pb-3 text-center">Service</h4>
       </div>
       <!-- Service Section -->
-      <div class="m-auto col-xl-10 carousel rounded-4">
+      <section id="service" class="m-auto col-xl-10 carousel rounded-4">
           <div id="carouselIndicators" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-indicators">
               <button type="button" data-bs-target="#carouselIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -150,14 +150,14 @@
               </div>
             </div>
           </div>
-      </div>
+      </section>
       <!-- End Service Section -->
 
       <!-- Product Section-->
       <div class="container col-xl-10 mt-5">
         <h4 class="pb-3 text-center">Produk</h4>
       </div>
-      <div class="container col-xl-10 px-4">
+      <section id="produk" class="container col-xl-10 px-4">
         <div class="row row-cols-1 row-cols-md-3 mb-3">
           <div class="col">
             <div class="card m-auto mb-3" style="width: auto">
@@ -264,7 +264,7 @@
             </div>
           </div>
         </div>
-      </div>
+      </section>
 
       <!-- End Product Section -->
 
@@ -272,7 +272,7 @@
       <div class="container col-xl-10 mt-5">
         <h4 class="pb-3 text-center">Testimoni</h4>
       </div>
-      <div class="container col-xl-10 px-4">
+      <section id="testimoni" class="container col-xl-10 px-4">
         <div class="row row-cols-1 row-cols-md-2 mb-3">
           <div class="col">
             <div class="card m-auto mb-3 p-4" style="width: auto; height: 250px">
@@ -299,11 +299,11 @@
             </div>
           </div>
         </div>
-      </div>
+      </section>
       <!-- End Testimoni Section -->
 
       <!-- Maps Section -->
-      <div class="hero container col-xl-10 px-4 mt-5">
+      <section id="maps" class="hero container col-xl-10 px-4 mt-5">
         <div class="row align-items-center g-5 py-5 rounded-3">
           <div class="col-lg-6">
             <h4 class="fw-bold lh-1 mb-5">Kami disini untuk Anda</h4>
@@ -377,6 +377,6 @@
       <div class="text-center fw-bold">Copyright - Benadem Service © 2021</div>
     </footer>
     <!-- End Footer -->
-    <script src="bootstrap.bundle.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
   </body>
 </html>
