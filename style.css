@@ -8,7 +8,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700&display=swap");
 
 header {
-  margin-top: 80px;
+  margin-top: 60px;
   padding-top: 60px;
 }
 
@@ -44,4 +44,28 @@ body {
 
 .bg-gradient-ungu {
   background: linear-gradient(128deg, rgba(137, 82, 255, 1) 36%, rgba(182, 148, 255, 1) 100%);
+}
+
+.bg-blue {
+  background: #94d8ff;
+}
+
+.bg-blue-old {
+  background: #949fff;
+}
+
+.bg-red {
+  background: #ff9494;
+}
+
+.bg-green {
+  background: #b6ff94;
+}
+
+.bg-orange {
+  background: #ffd494;
+}
+
+.bg-ungu {
+  background: #c394ff;
 }
