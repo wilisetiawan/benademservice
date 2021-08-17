@@ -1,0 +1,31 @@
+@media only screen and (max-width: 500px) {
+  .logo {
+    width: 200px;
+    margin-top: 50px;
+  }
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700&display=swap");
+
+header {
+  margin-top: 100px;
+  padding-top: 60px;
+}
+
+body {
+  font-family: "Lato", sans-serif;
+}
+
+.map-responsive {
+  overflow: hidden;
+  padding-bottom: 56.25%;
+  position: relative;
+  height: 0;
+}
+.map-responsive iframe {
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+}
