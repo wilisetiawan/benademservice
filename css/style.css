@@ -72,3 +72,14 @@ body {
 .bg-abu {
   background: #edf4fa;
 }
+
+.bg-orange-badge {
+  background: #ff8a00;
+  opacity: 85%;
+}
+
+.estimasi {
+  top: 0;
+  left: 0;
+  border-radius: 0 0 15px 15px;
+}
