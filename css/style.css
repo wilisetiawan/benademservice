@@ -80,6 +80,35 @@ body {
 
 .estimasi {
   top: 0;
-  left: 0;
+  right: 0;
   border-radius: 0 0 15px 15px;
+}
+
+.ch-padding {
+  padding: 0 5px;
+}
+
+#btn-back-to-top {
+  position: fixed;
+  bottom: 20px;
+  opacity: 90%;
+  right: 20px;
+  display: none;
+}
+
+#btn-cart {
+  position: fixed;
+  top: 40%;
+  opacity: 90%;
+  right: 20px;
+  display: block;
+}
+
+.rounded-dot {
+  border-radius: 50%;
+}
+
+.img-category {
+  width: 100%;
+  height: auto;
 }
