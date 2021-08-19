@@ -1,36 +1,30 @@
 @media only screen and (max-width: 768px) {
   .navbar-brand {
-    max-width: 220px;
+    max-width: 180px;
+  }
+  .title {
+    text-align: center;
   }
 }
 
 @import url("https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700&display=swap");
 
-header {
-  margin-top: 60px;
-  padding-top: 60px;
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 160px;
 }
 
 body {
   font-family: "Lato", sans-serif;
 }
 
-.map-responsive {
-  overflow: hidden;
-  padding-bottom: 56.25%;
-  position: relative;
-  height: 0;
-}
-.map-responsive iframe {
-  left: 0;
-  top: 0;
-  height: 100%;
-  width: 100%;
-  position: absolute;
+header {
+  margin-top: 60px;
+  padding-top: 60px;
 }
 
 .bg-gradient-blue {
-  background: linear-gradient(128deg, rgba(33, 171, 250, 1) 43%, rgba(148, 216, 255, 1) 100%);
+  background: linear-gradient(130deg, rgba(49,149,208,1) 34%, rgba(148,216,255,1) 100%);
 }
 
 .bg-gradient-biru-ungu {
@@ -43,6 +37,18 @@ body {
 
 .bg-gradient-ungu {
   background: linear-gradient(128deg, rgba(137, 82, 255, 1) 36%, rgba(182, 148, 255, 1) 100%);
+}
+
+.bg-abu {
+  background: #EDF4FA;
+}
+
+.bg-white {
+  background: #fff;
+}
+
+.bg-purple {
+  background: rgba(137, 82, 255);
 }
 
 .bg-blue {
@@ -69,19 +75,33 @@ body {
   background: #c394ff;
 }
 
-.bg-abu {
-  background: #edf4fa;
-}
-
 .bg-orange-badge {
   background: #ff8a00;
   opacity: 85%;
+}
+
+.text-black {
+  color: rgb(29, 29, 29);
 }
 
 .estimasi {
   top: 0;
   right: 0;
   border-radius: 0 0 15px 15px;
+}
+
+.map-responsive {
+  overflow: hidden;
+  padding-bottom: 56.25%;
+  position: relative;
+  height: 0;
+}
+.map-responsive iframe {
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  position: absolute;
 }
 
 .ch-padding {
@@ -91,24 +111,16 @@ body {
 #btn-back-to-top {
   position: fixed;
   bottom: 20px;
-  opacity: 90%;
+  opacity: 60%;
   right: 20px;
   display: none;
-}
-
-#btn-cart {
-  position: fixed;
-  top: 40%;
-  opacity: 90%;
-  right: 20px;
-  display: block;
-}
-
-.rounded-dot {
-  border-radius: 50%;
 }
 
 .img-category {
   width: 100%;
   height: auto;
+}
+
+.waves {
+  margin-top:-20px;
 }

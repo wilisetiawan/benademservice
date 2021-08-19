@@ -1,236 +1,382 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <!-- Bootstrap CSS -->
-    <link href="../css/bootstrap.min.css" rel="stylesheet" />
-    <link rel="stylesheet" href="../css/style.css" />
-    <title>Benadem Service</title>
-  </head>
-  <body>
-    <!-- Header -->
-    <header>
-      <!-- Navbar -->
-      <nav class="navbar navbar-expand-lg navbar-light fixed-top bg-white shadow-sm">
-        <div class="container col-10 py-2">
-          <a class="navbar-brand" href="index.html">
-            <img src="../img/logo-benadem.png" class="navbar-brand logo" alt="Benadem Service" width="250"/>
-          </a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav ms-auto">
-              <li class="nav-item mx-2">
-                <a class="nav-link active fw-bold" aria-current="page" href="#">Home</a>
-              </li>
-              <li class="nav-item mx-2">
-                <a class="nav-link" href="#">Service</a>
-              </li>
-              <li class="nav-item mx-2">
-                <a class="nav-link" href="#">Produk</a>
-              </li>
-              <li class="nav-item mx-2">
-                <a class="nav-link" href="#">Testimoni</a>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </nav>
-      <!-- End Navbar -->
-    </header>
-    <!-- End Header -->
+<html lang="id">
 
-    <!-- Hero Section -->
-    <div class="container col-xl-10 pb-5">
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="apple-touch-icon" sizes="57x57" href="img/icon/apple-icon-57x57.png">
+  <link rel="apple-touch-icon" sizes="60x60" href="img/icon/apple-icon-60x60.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="img/icon/apple-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="img/icon/apple-icon-76x76.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="img/icon/apple-icon-114x114.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="img/icon/apple-icon-120x120.png">
+  <link rel="apple-touch-icon" sizes="144x144" href="img/icon/apple-icon-144x144.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="img/icon/apple-icon-152x152.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="img/icon/apple-icon-180x180.png">
+  <link rel="icon" type="image/png" sizes="192x192" href="img/icon/android-icon-192x192.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="img/icon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="96x96" href="img/icon/favicon-96x96.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="img/icon/favicon-16x16.png">
+  <link rel="manifest" href="img/icon/manifest.json">
+  <meta name="msapplication-TileColor" content="#ffffff">
+  <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+  <meta name="theme-color" content="#ffffff">
+  <!-- Bootstrap CSS -->
+  <link href="../css/bootstrap.min.css" rel="stylesheet" />
+  <!-- CSS -->
+  <link rel="stylesheet" href="../css/style.css" />
+  <title>Benadem Service</title>
+</head>
+
+<body>
+  <!-- Header -->
+  <header>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top bg-white shadow-sm">
+      <div class="container col-10 py-2">
+        <a class="navbar-brand" href="index.html">
+          <img src="../img/logo-benadem.png" class="navbar-brand logo" alt="Benadem Service" width="250" />
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item mx-2">
+              <a class="nav-link active fw-bolder" aria-current="page" href="index.html">Home</a>
+            </li>
+            <li class="nav-item mx-2">
+              <a class="nav-link" href="service.html">Service atau Perbaikan</a>
+            </li>
+            <li class="nav-item mx-2">
+              <a class="nav-link" href="#produk">Beli Elektronik</a>
+            </li>
+            <li class="nav-item mx-2">
+              <a class="nav-link" href="#testi">Kontak Kami</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- End Navbar -->
+  </header>
+  <!-- End Header -->
+
+  <!-- Hero Section -->
+  <div class="hero-wrap mb-2">
+    <div class="container col-lg-10 col-12">
       <div class="hero row align-items-center py-5 bg-gradient-blue rounded-4">
-        <div class="col-lg-7 text-white px-5">
+        <div class="col-lg-7 col-12 text-white px-5">
           <h1 class="px-2 display-5 fw-bold mb-4">Melayani Jual Beli dan Service Barang Elektronik</h1>
           <p class="px-2 mb-5 fs-5">Meliputi barang-barang Elektronik seperti AC, Kulkas, Mesin Cuci, dan Pompa Air.</p>
-          <div class="px-2 gap-2 d-md-flex justify-content-md-start">
-            <button type="button" class="btn btn-success btn-lg mb-4 px-4 rounded-pill">
-              <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" fill="currentColor" class="bi bi-whatsapp" viewBox="0 0 20 20">
+          <div class="px-2 pb-lg-0 pb-4">
+            <a href="#" class="btn btn-success btn-lg mb-4 px-4 rounded-pill">
+              <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" fill="currentColor" class="bi bi-whatsapp"
+                viewBox="0 0 20 20">
                 <path
-                  d="M13.601 2.326A7.854 7.854 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.933 7.933 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.898 7.898 0 0 0 13.6 2.326zM7.994 14.521a6.573 6.573 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.557 6.557 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592zm3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.729.729 0 0 0-.529.247c-.182.198-.691.677-.691 1.654 0 .977.71 1.916.81 2.049.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232z"
-                />
+                  d="M13.601 2.326A7.854 7.854 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.933 7.933 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.898 7.898 0 0 0 13.6 2.326zM7.994 14.521a6.573 6.573 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.557 6.557 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592zm3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.729.729 0 0 0-.529.247c-.182.198-.691.677-.691 1.654 0 .977.71 1.916.81 2.049.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232z" />
               </svg>
               Hubungi Kami
-            </button>
+            </a>
           </div>
         </div>
-        <div class="col-lg-5">
-          <img src="../img/hero/hero-img.png" class="d-block m-auto mx-lg-auto img-fluid" alt="Jual Beli dan Service Elektronik" width="450" />
+        <div class="col-lg-5 col-12">
+          <img src="../img/hero/hero-img.png" class="d-block m-auto mx-auto img-fluid"
+            alt="Jual Beli dan Service Elektronik" width="450" />
         </div>
       </div>
     </div>
-    <!-- End Hero Section -->
+  </div>
+  <!-- End Hero -->
 
-    <!-- Main -->
-    <main class="mt-2 pb-5 bg-abu">
-        <!-- Artikel -->
-      <div class="container col-xl-10 pt-5 pb-1">
-        <h1 class="pb-3 fs-3 text-center">Artikel</h1>
-      </div>
-      <section id="artikel" class="container col-xl-8">
-        <div class="row mb-3 p-2 rounded-3">
-          <div class="col">
-            <div class="card m-auto mb-3 p-4" style="width: auto;">
-              <div class="p-lg-5">
-                <h1 class="fs-3 fw-bold pb-4">6 Kebiasaan Yang Perlahan Akan Merusak Kulkas Anda</h1>
-                <p>Kulkas Anda adalah salah satu peralatan yang paling sering digunakan di rumah Anda. Meskipun kulkas mungkin terlihat seperti salah satu peralatan yang lebih kokoh di rumah Anda, kulkas sangat halus, dengan banyak bagian sensitif, dan dapat dengan mudah rusak jika tidak dirawat dengan benar. Melakukan beberapa kebiasaan perawatan pencegahan dasar dapat menambah umur alat yang biasanya mahal ini.</p>
+  <div class="waves">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+      <path fill="#EDF4FA" fill-opacity="1"
+        d="M0,96L80,122.7C160,149,320,203,480,202.7C640,203,800,149,960,149.3C1120,149,1280,203,1360,229.3L1440,256L1440,320L1360,320C1280,320,1120,320,960,320C800,320,640,320,480,320C320,320,160,320,80,320L0,320Z">
+      </path>
+    </svg>
+  </div>
 
-                <p>Benadem Service mencatat setidaknya ada 6 kebiasan buruk yang sering dilakukan terhadap kulkas. Kebanyakan orang lebih suka mengabaikan tugas perawatan alat. Benadem service mengerti bahwa tugas merawat kulkas mengat sangat sulit. Tetapi jika Anda terus menundanya, hal itu dapat menyebabkan kulkas Anda tidak berfungsi dan mungkin memerlukan perbaikan yang mahal di kemudian hari.</p>
+  <!-- Main -->
+  <main class="bg-abu">
+    <!-- Artikel -->
+    <div class="container col-xl-10 pt-5 pb-1">
+      <h2 class="title fw-bold mb-4 text-center">Artikel</h2>
+    </div>
+    <section id="artikel" class="container col-xl-8">
+      <div class="row mb-3 p-2 rounded-3">
+        <div class="col">
+          <div class="card m-auto mb-3 p-4">
+            <div class="p-lg-5">
+              <h1 class="fs-3 fw-bold pb-4">6 Kebiasaan Yang Perlahan Akan Merusak Kulkas Anda</h1>
+              <p>Kulkas Anda adalah salah satu peralatan yang paling sering digunakan di rumah Anda. Meskipun kulkas
+                mungkin terlihat seperti salah satu peralatan yang lebih kokoh di rumah Anda, kulkas sangat halus,
+                dengan banyak bagian sensitif, dan dapat dengan mudah rusak jika tidak dirawat dengan benar. Melakukan
+                beberapa kebiasaan perawatan pencegahan dasar dapat menambah umur alat yang biasanya mahal ini.</p>
 
-                <p>Untuk menyelamatkan diri Anda dari sakit kepala dan biaya perbaikan, Anda disarankan untuk mengambil pendekatan proaktif untuk merawat kulkas Anda dengan benar dan memberikannya atensi ekstra yang memang layak untuknya.</p>
+              <p>Benadem Service mencatat setidaknya ada 6 kebiasan buruk yang sering dilakukan terhadap kulkas.
+                Kebanyakan orang lebih suka mengabaikan tugas perawatan alat. Benadem service mengerti bahwa tugas
+                merawat kulkas mengat sangat sulit. Tetapi jika Anda terus menundanya, hal itu dapat menyebabkan kulkas
+                Anda tidak berfungsi dan mungkin memerlukan perbaikan yang mahal di kemudian hari.</p>
 
-                <p>Meskipun secara rutin membersihkan kulkas Anda adalah ide bagus, itu bukan satu-satunya kebiasaan perawatan yang harus Anda terapkan. Benadem Service telah menyusun daftar singkat yang harus dan tidak boleh dilakukan, serta solusi yang efektif, sehingga kulkas Anda akan tetap dalam kondisi kerja yang baik selama bertahun-tahun yang akan datang.</p>
+              <p>Untuk menyelamatkan diri Anda dari sakit kepala dan biaya perbaikan, Anda disarankan untuk mengambil
+                pendekatan proaktif untuk merawat kulkas Anda dengan benar dan memberikannya atensi ekstra yang memang
+                layak untuknya.</p>
 
-                <h2 class="fw-bold py-3 fs-4">Menimbun Kulkas Anda Secara Berlebihan</h2>
-                <p>Terlalu banyak menimbun kulkas atau menaruh makanan/minuman berlebih di kulkas Anda adalah kebiasaan buruk yang sangat umum, terutama ketika Anda memiliki bahan makanan segar. Ketika Anda membebani kulkas Anda, hal itu dapat mempersulit kulkas untuk mengatur suhu interior dan menjaga agar tetap dingin, yang dapat menyebabkan makanan lebih cepat rusak.</p>
+              <p>Meskipun secara rutin membersihkan kulkas Anda adalah ide bagus, itu bukan satu-satunya kebiasaan
+                perawatan yang harus Anda terapkan. Benadem Service telah menyusun daftar singkat yang harus dan tidak
+                boleh dilakukan, serta solusi yang efektif, sehingga kulkas Anda akan tetap dalam kondisi kerja yang
+                baik selama bertahun-tahun yang akan datang.</p>
 
-                <p>Ketika kulkas dipaksa bekerja lebih keras, hal itu dapat menimbulkan tekanan yang tidak perlu pada koil kompresor dan kondensor, yang dapat menyebabkan kulkas Anda menjadi terlalu panas.</p>
+              <h2 class="fw-bold py-3 fs-4">Menimbun Kulkas Anda Secara Berlebihan</h2>
+              <p>Terlalu banyak menimbun kulkas atau menaruh makanan/minuman berlebih di kulkas Anda adalah kebiasaan
+                buruk yang sangat umum, terutama ketika Anda memiliki bahan makanan segar. Ketika Anda membebani kulkas
+                Anda, hal itu dapat mempersulit kulkas untuk mengatur suhu interior dan menjaga agar tetap dingin, yang
+                dapat menyebabkan makanan lebih cepat rusak.</p>
 
-                <h3 class="fw-bold py-3 fs-5">Solusi</h3>
-                <p>Sisakan ruang yang cukup agar udara dapat bersirkulasi dengan bebas sehingga Anda tidak membebani kulkas Anda secara berlebihan. Aturan praktis yang baik adalah menjaga kulkas Anda sekitar 75% penuh.</p>
-                
-                <p>Kebiasaan lain yang baik untuk diadopsi adalah membuang makanan lama sebelum Anda pergi berbelanja, menyisakan ruang untuk mengisi kembali kulkas Anda dengan barang-barang baru yang lebih segar.</p>
+              <p>Ketika kulkas dipaksa bekerja lebih keras, hal itu dapat menimbulkan tekanan yang tidak perlu pada koil
+                kompresor dan kondensor, yang dapat menyebabkan kulkas Anda menjadi terlalu panas.</p>
 
-                <h2 class="fw-bold py-3 fs-4">Lupa Membersihkan Kumparan Kondensor Secara Rutin</h2>
-                <p>Dikatakan bahwa pemilik rumah dapat menghindari hampir 70% dari semua perbaikan kulkas jika mereka hanya membersihkan koil kondensor mereka setidaknya setahun sekali. Kumparan kondensor Anda dapat dengan mudah menjadi berlapis debu, kotoran, dan bulu hewan peliharaan jika tidak dibersihkan dan dirawat dengan benar.</p>
+              <h3 class="fw-bold py-3 fs-5">Solusi</h3>
+              <p>Sisakan ruang yang cukup agar udara dapat bersirkulasi dengan bebas sehingga Anda tidak membebani
+                kulkas Anda secara berlebihan. Aturan praktis yang baik adalah menjaga kulkas Anda sekitar 75% penuh.
+              </p>
 
-                <p>Ketika kumparan kondensor tertutup kotoran, hal itu akan mencegah kulkas membuang panas secara efektif, yang akan memaksa kompresor bekerja lembur untuk mendinginkan unit. Hal ini tidak hanya menambah tekanan yang tidak perlu pada komponen kerja kulkas Anda, tetapi juga dapat mengakibatkan tagihan listrik yang lebih tinggi.</p>
+              <p>Kebiasaan lain yang baik untuk diadopsi adalah membuang makanan lama sebelum Anda pergi berbelanja,
+                menyisakan ruang untuk mengisi kembali kulkas Anda dengan barang-barang baru yang lebih segar.</p>
 
-                <h3 class="fw-bold py-3 fs-5">Solusi</h3>
-                <p>Solusinya sedikit sederhana, tetapi membutuhkan sedikit kemahiran dan pengetahuan.</p>
+              <h2 class="fw-bold py-3 fs-4">Lupa Membersihkan Kumparan Kondensor Secara Rutin</h2>
+              <p>Dikatakan bahwa pemilik rumah dapat menghindari hampir 70% dari semua perbaikan kulkas jika mereka
+                hanya membersihkan koil kondensor mereka setidaknya setahun sekali. Kumparan kondensor Anda dapat dengan
+                mudah menjadi berlapis debu, kotoran, dan bulu hewan peliharaan jika tidak dibersihkan dan dirawat
+                dengan benar.</p>
 
-                <p>Pertama, Anda perlu menemukan koil kondensor, yang biasanya berada di bagian belakang kulkas dalam model tradisional. Setelah Anda menemukannya, Anda harus dengan hati-hati menghilangkan kotoran yang menumpuk dengan sikat lembut.</p>
+              <p>Ketika kumparan kondensor tertutup kotoran, hal itu akan mencegah kulkas membuang panas secara efektif,
+                yang akan memaksa kompresor bekerja lembur untuk mendinginkan unit. Hal ini tidak hanya menambah tekanan
+                yang tidak perlu pada komponen kerja kulkas Anda, tetapi juga dapat mengakibatkan tagihan listrik yang
+                lebih tinggi.</p>
 
-                <p>Pastikan untuk tidak merusak kumparan, karena kumparannya halus dan dapat menekuk jika terlalu banyak tekanan yang diberikan. Untuk mendapatkan pemahaman mendalam tentang cara membersihkan koil kondensor kulkas Anda, Anda dapat menghubungi Benadem Service untuk melakukannya jika Anda berada di Tangerang Selatan, Tangerang Kota, BSD, Depok, Bintaro, Ciputat, Pamulang, atau sekitarnya kami siap memberikan pelayanan.</p>
+              <h3 class="fw-bold py-3 fs-5">Solusi</h3>
+              <p>Solusinya sedikit sederhana, tetapi membutuhkan sedikit kemahiran dan pengetahuan.</p>
 
-                <h2 class="fw-bold py-3 fs-4">Tidak Cukup Mengganti Filter Air</h2>
-                <p>Filter air adalah fitur rapuh lainnya di dalam kulkas Anda. Jika Anda memiliki jenis kulkas yang memiliki dispenser es dan air yang disaring di pintu kulkas, maka Anda harus mengganti filter secara teratur. </p>
+              <p>Pertama, Anda perlu menemukan koil kondensor, yang biasanya berada di bagian belakang kulkas dalam
+                model tradisional. Setelah Anda menemukannya, Anda harus dengan hati-hati menghilangkan kotoran yang
+                menumpuk dengan sikat lembut.</p>
 
-                <p>Ini tidak hanya untuk memastikan bahwa air minum dan es Anda tetap bersih, tetapi juga akan mencegah endapan menumpuk di pipa yang mengalir melalui kulkas Anda. Pemahaman dasar bahwa Anda tidak ingin kulkas Anda bekerja lebih keras dari yang seharusnya adalah benang merah untuk mempertahankan komponen yang lebih rumit dari kulkas Anda.</p>
+              <p>Pastikan untuk tidak merusak kumparan, karena kumparannya halus dan dapat menekuk jika terlalu banyak
+                tekanan yang diberikan. Untuk mendapatkan pemahaman mendalam tentang cara membersihkan koil kondensor
+                kulkas Anda, Anda dapat menghubungi Benadem Service untuk melakukannya jika Anda berada di Tangerang
+                Selatan, Tangerang Kota, BSD, Depok, Bintaro, Ciputat, Pamulang, atau sekitarnya kami siap memberikan
+                pelayanan.</p>
 
-                <h3 class="fw-bold py-3 fs-5">Solusi</h3>
-                <p>Lihat buku panduan sesuai merek dan model kulkas Anda untuk mengetahui filter air apa yang perlu Anda beli. Kemungkinan Anda dapat membeli filter air baru langsung dari pabriknya atau dengan menghubungi kami di Benadem Service.</p>
+              <h2 class="fw-bold py-3 fs-4">Tidak Cukup Mengganti Filter Air</h2>
+              <p>Filter air adalah fitur rapuh lainnya di dalam kulkas Anda. Jika Anda memiliki jenis kulkas yang
+                memiliki dispenser es dan air yang disaring di pintu kulkas, maka Anda harus mengganti filter secara
+                teratur. </p>
 
-                <p>Sebaiknya Anda mengganti filter air setiap 6 bulan sekali. Jika Anda hanya memiliki pembuat es, dan tidak ada dispenser air, Anda masih perlu mengganti filter untuk memastikan es Anda bebas dari polutan.</p>
+              <p>Ini tidak hanya untuk memastikan bahwa air minum dan es Anda tetap bersih, tetapi juga akan mencegah
+                endapan menumpuk di pipa yang mengalir melalui kulkas Anda. Pemahaman dasar bahwa Anda tidak ingin
+                kulkas Anda bekerja lebih keras dari yang seharusnya adalah benang merah untuk mempertahankan komponen
+                yang lebih rumit dari kulkas Anda.</p>
 
-                <h2 class="fw-bold py-3 fs-4">Tidak Rutin Membersihkan Kulkas</h2>
-                <p>Membersihkan kulkas secara teratur, baik di dalam maupun di luar, dapat membuat Anda lupa karena Anda terlalu sibuk. Kami sanget mengerti!</p>
+              <h3 class="fw-bold py-3 fs-5">Solusi</h3>
+              <p>Lihat buku panduan sesuai merek dan model kulkas Anda untuk mengetahui filter air apa yang perlu Anda
+                beli. Kemungkinan Anda dapat membeli filter air baru langsung dari pabriknya atau dengan menghubungi
+                kami di Benadem Service.</p>
 
-                <p>Oleh Karena itu, memastikan kulkas Anda bebas dari tumpahan lengket, percikan makanan, dan partikel makanan yang mengeras akan memastikan bahwa Anda dan keluarga Anda tidak terkena bakteri atau keracunan makanan.</p>
+              <p>Sebaiknya Anda mengganti filter air setiap 6 bulan sekali. Jika Anda hanya memiliki pembuat es, dan
+                tidak ada dispenser air, Anda masih perlu mengganti filter untuk memastikan es Anda bebas dari polutan.
+              </p>
 
-                <p>Sejauh aspek fungsional pembersihan kulkas Anda, jika tumpahan makanan atau cipratan menumpuk di segel pintu kulkas dapat menyebabkan degradasi dan retaknya sealant, yang akan mengakibatkan kebocoran. Ini akan memaksa kulkas Anda bekerja lembur untuk mendinginkan interior dan menghabiskan lebih banyak listrik.</p>
+              <h2 class="fw-bold py-3 fs-4">Tidak Rutin Membersihkan Kulkas</h2>
+              <p>Membersihkan kulkas secara teratur, baik di dalam maupun di luar, dapat membuat Anda lupa karena Anda
+                terlalu sibuk. Kami sanget mengerti!</p>
 
-                <h3 class="fw-bold py-3 fs-5">Solusi</h3>
-                <p>Solusinya cukup jelas, tetapi frekuensi penting. Anda disarankan untuk membersihkan bagian dalam dan luar kulkas setiap dua minggu sekali. Meskipun pertama kali mungkin akan terasa ribet, semakin sering Anda membersihkan kulkas Anda, semakin mudah jadinya.</p>
+              <p>Oleh Karena itu, memastikan kulkas Anda bebas dari tumpahan lengket, percikan makanan, dan partikel
+                makanan yang mengeras akan memastikan bahwa Anda dan keluarga Anda tidak terkena bakteri atau keracunan
+                makanan.</p>
 
-                <h2 class="fw-bold py-3 fs-4">Menyimpan Makanan dengan Tidak Benar</h2>
-                <p>Pernahkah Anda mengambil sisa makanan hangat dan memindahkannya langsung ke kulkas? Nah, Anda mungkin terkejut mengetahui bahwa hal itu secara tidak sengaja dapat merusak kulkas Anda.</p>
+              <p>Sejauh aspek fungsional pembersihan kulkas Anda, jika tumpahan makanan atau cipratan menumpuk di segel
+                pintu kulkas dapat menyebabkan degradasi dan retaknya sealant, yang akan mengakibatkan kebocoran. Ini
+                akan memaksa kulkas Anda bekerja lembur untuk mendinginkan interior dan menghabiskan lebih banyak
+                listrik.</p>
 
-                <p>Mirip dengan mengatur suhu terlalu tinggi, saat Anda menyimpan makanan panas atau hangat di dalam kulkas tanpa membiarkannya mendingin terlebih dahulu, bisa memaksa kulkas Anda bekerja lebih keras untuk mendinginkan bagian dalamnya.</p>
+              <h3 class="fw-bold py-3 fs-5">Solusi</h3>
+              <p>Solusinya cukup jelas, tetapi frekuensi penting. Anda disarankan untuk membersihkan bagian dalam dan
+                luar kulkas setiap dua minggu sekali. Meskipun pertama kali mungkin akan terasa ribet, semakin sering
+                Anda membersihkan kulkas Anda, semakin mudah jadinya.</p>
 
-                <h3 class="fw-bold py-3 fs-5">Solusi</h3>
-                <p>Biarkan sisa makanan atau makanan Anda mendingin dengan aman di atas meja, tertutup, sebelum menempatkannya di kulkas Anda untuk penyimpanan yang aman dan bersih.</p>
+              <h2 class="fw-bold py-3 fs-4">Menyimpan Makanan dengan Tidak Benar</h2>
+              <p>Pernahkah Anda mengambil sisa makanan hangat dan memindahkannya langsung ke kulkas? Nah, Anda mungkin
+                terkejut mengetahui bahwa hal itu secara tidak sengaja dapat merusak kulkas Anda.</p>
 
-                <h2 class="fw-bold py-3 fs-4">Tidak Memeriksa Segel Pintu Kulkas</h2>
-                <p>Yang satu ini penting. Segel pada pintu kulkas Anda sangat penting untuk fungsi kulkas Anda. Jika dibiarkan, mereka bisa mulai memburuk, rapuh, dan retak. Sehingga menyebabkan mereka rusak dan tidak dapat menyegel dengan benar di udara dingin. Hal ini menyebabkan pemborosan energi yang besar, karena kulkas Anda harus bekerja lebih keras untuk beroperasi.</p>
+              <p>Mirip dengan mengatur suhu terlalu tinggi, saat Anda menyimpan makanan panas atau hangat di dalam
+                kulkas tanpa membiarkannya mendingin terlebih dahulu, bisa memaksa kulkas Anda bekerja lebih keras untuk
+                mendinginkan bagian dalamnya.</p>
 
-                <h3 class="fw-bold py-3 fs-5">Solusi</h3>
-                <p>Periksa secara teratur segel di sekitar pintu kulkas Anda dari tanda-tanda keausan atau retak. Jika Anda melihat bahwa pintu kulkas Anda tidak terlalu menolak saat Anda mencoba membukanya, dan daya hisapnya terasa lemah, mungkin sudah saatnya untuk memanggil seorang profesional untuk datang dan mengganti segelnya. Benadem Service siap melayani penggantian segel pintu kulkas Anda!</p>
+              <h3 class="fw-bold py-3 fs-5">Solusi</h3>
+              <p>Biarkan sisa makanan atau makanan Anda mendingin dengan aman di atas meja, tertutup, sebelum
+                menempatkannya di kulkas Anda untuk penyimpanan yang aman dan bersih.</p>
 
-                <p>Setelah Anda terbiasa merawat, membersihkan, dan memeriksa kulkas secara rutin, itu akan menjadi kebiasaan Anda. Dengan sedikit usaha dan beberapa peralatan rumah tangga yang terpercaya, Anda akan dapat menjaga salah satu peralatan terpenting di rumah Anda berjalan dengan lancar dan aman untuk jangka panjang.</p>
+              <h2 class="fw-bold py-3 fs-4">Tidak Memeriksa Segel Pintu Kulkas</h2>
+              <p>Yang satu ini penting. Segel pada pintu kulkas Anda sangat penting untuk fungsi kulkas Anda. Jika
+                dibiarkan, mereka bisa mulai memburuk, rapuh, dan retak. Sehingga menyebabkan mereka rusak dan tidak
+                dapat menyegel dengan benar di udara dingin. Hal ini menyebabkan pemborosan energi yang besar, karena
+                kulkas Anda harus bekerja lebih keras untuk beroperasi.</p>
 
-                <p>Jika Anda menduga kulkas Anda mulai rusak, seperti tidak mendingin dengan benar, atau makanan rusak sebelum tanggal kedaluwarsa, atau ada suara aneh yang keluar darinya, Anda mungkin perlu meminta teknisi perbaikan kulkas profesional untuk datang.</p>
+              <h3 class="fw-bold py-3 fs-5">Solusi</h3>
+              <p>Periksa secara teratur segel di sekitar pintu kulkas Anda dari tanda-tanda keausan atau retak. Jika
+                Anda melihat bahwa pintu kulkas Anda tidak terlalu menolak saat Anda mencoba membukanya, dan daya
+                hisapnya terasa lemah, mungkin sudah saatnya untuk memanggil seorang profesional untuk datang dan
+                mengganti segelnya. Benadem Service siap melayani penggantian segel pintu kulkas Anda!</p>
 
-                <h2 class="fw-bold py-3 fs-4">Siapa yang Harus Dihubungi Jika Kulkas Anda Tidak Berfungsi dengan Benar?</h2>
-                <p>Benadem Service adalah salah satu penyedia layanan terbaik untuk lemari es dan peralatan elektronik lainnya di Tangerang Selatan dan sekitarnya. Jika Anda perlu memperbaiki Kulkas Anda, kami adalah orang yang harus dihubungi. 081283051589</p>
-              </div>
+              <p>Setelah Anda terbiasa merawat, membersihkan, dan memeriksa kulkas secara rutin, itu akan menjadi
+                kebiasaan Anda. Dengan sedikit usaha dan beberapa peralatan rumah tangga yang terpercaya, Anda akan
+                dapat menjaga salah satu peralatan terpenting di rumah Anda berjalan dengan lancar dan aman untuk jangka
+                panjang.</p>
+
+              <p>Jika Anda menduga kulkas Anda mulai rusak, seperti tidak mendingin dengan benar, atau makanan rusak
+                sebelum tanggal kedaluwarsa, atau ada suara aneh yang keluar darinya, Anda mungkin perlu meminta teknisi
+                perbaikan kulkas profesional untuk datang.</p>
+
+              <h2 class="fw-bold py-3 fs-4">Siapa yang Harus Dihubungi Jika Kulkas Anda Tidak Berfungsi dengan Benar?
+              </h2>
+              <p>Benadem Service adalah salah satu penyedia layanan terbaik untuk lemari es dan peralatan elektronik
+                lainnya di Tangerang Selatan dan sekitarnya. Jika Anda perlu memperbaiki Kulkas Anda, kami adalah orang
+                yang harus dihubungi. 081283051589</p>
             </div>
           </div>
         </div>
-      </section>
-      <!-- End Artikel -->
-    </main>
-    <!-- End Main -->
+      </div>
+    </section>
+    <!-- End Artikel -->
+  </main>
+  <!-- End Main -->
 
-         <!-- Maps Section -->
-         <section id="maps" class="hero container col-xl-10 px-4 mt-5">
-            <div class="row align-items-center g-5 py-5 rounded-3">
-              <div class="col-lg-6">
-                <h4 class="fw-bold lh-1 mb-5">Kami disini untuk Anda</h4>
-                <div class="row mb-3">
-                  <div class="col-1">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-shop" viewBox="0 0 20 20">
-                    <path d="M2.97 1.35A1 1 0 0 1 3.73 1h8.54a1 1 0 0 1 .76.35l2.609 3.044A1.5 1.5 0 0 1 16 5.37v.255a2.375 2.375 0 0 1-4.25 1.458A2.371 2.371 0 0 1 9.875 8 2.37 2.37 0 0 1 8 7.083 2.37 2.37 0 0 1 6.125 8a2.37 2.37 0 0 1-1.875-.917A2.375 2.375 0 0 1 0 5.625V5.37a1.5 1.5 0 0 1 .361-.976l2.61-3.045zm1.78 4.275a1.375 1.375 0 0 0 2.75 0 .5.5 0 0 1 1 0 1.375 1.375 0 0 0 2.75 0 .5.5 0 0 1 1 0 1.375 1.375 0 1 0 2.75 0V5.37a.5.5 0 0 0-.12-.325L12.27 2H3.73L1.12 5.045A.5.5 0 0 0 1 5.37v.255a1.375 1.375 0 0 0 2.75 0 .5.5 0 0 1 1 0zM1.5 8.5A.5.5 0 0 1 2 9v6h1v-5a1 1 0 0 1 1-1h3a1 1 0 0 1 1 1v5h6V9a.5.5 0 0 1 1 0v6h.5a.5.5 0 0 1 0 1H.5a.5.5 0 0 1 0-1H1V9a.5.5 0 0 1 .5-.5zM4 15h3v-5H4v5zm5-5a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v3a1 1 0 0 1-1 1h-2a1 1 0 0 1-1-1v-3zm3 0h-2v3h2v-3z"/>
-                    </svg>
-                  </div>
-                  <div class="col"><span class="fw-bold">Alamat : </span> Jl. Muktisari Sindangsari, Kecamatan Majenang, Cilacap Regency, Central Java</div>
-                </div>
-                <div class="row mb-3">
-                  <div class="col-1">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-whatsapp" viewBox="0 0 20 20">
-                    <path d="M13.601 2.326A7.854 7.854 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.933 7.933 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.898 7.898 0 0 0 13.6 2.326zM7.994 14.521a6.573 6.573 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.557 6.557 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592zm3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.729.729 0 0 0-.529.247c-.182.198-.691.677-.691 1.654 0 .977.71 1.916.81 2.049.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232z"/>
-                    </svg>
-                  </div>
-                  <div class="col"><span class="fw-bold">No. Telepon/WhatsApp : </span> 081285412232</div>
-                </div>
-                <div class="row mb-3">
-                  <div class="col-1">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-envelope" viewBox="0 0 20 20">
-                      <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2zm13 2.383-4.758 2.855L15 11.114v-5.73zm-.034 6.878L9.271 8.82 8 9.583 6.728 8.82l-5.694 3.44A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.739zM1 11.114l4.758-2.876L1 5.383v5.73z"/>
-                    </svg>
-                  </div>
-                  <div class="col"><span class="fw-bold">Email : </span> snowflukesoft@gmail.com</div>
-                </div>
-                <div class="row">
-                  <h5 class="fw-bold lh-1 mt-3 mb-3">Hubungi Kami :</h5>
-                  <div class="col-1 me-2">
-                    <button class="btn btn-primary rounded-circle">
-                      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-telephone-fill" viewBox="0 0 16 16">
-                        <path fill-rule="evenodd" d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z"/>
-                      </svg>
-                    </button>
-                  </div>
-                  <div class="col-1 me-2">
-                    <button class="btn btn-primary rounded-circle">
-                      <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor" class="bi bi-whatsapp" viewBox="0 0 16 16">
-                        <path d="M13.601 2.326A7.854 7.854 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.933 7.933 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.898 7.898 0 0 0 13.6 2.326zM7.994 14.521a6.573 6.573 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.557 6.557 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592zm3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.729.729 0 0 0-.529.247c-.182.198-.691.677-.691 1.654 0 .977.71 1.916.81 2.049.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232z"/>
-                      </svg>
-                    </button>
-                  </div>
-                  <div class="col-1">
-                    <button class="btn btn-primary rounded-circle">
-                      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-envelope-fill" viewBox="0 0 16 16">
-                        <path d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414.05 3.555zM0 4.697v7.104l5.803-3.558L0 4.697zM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586l-1.239-.757zm3.436-.586L16 11.801V4.697l-5.803 3.546z"/>
-                      </svg>
-                    </button>
-                  </div>
-                </div>
-              </div>
-              <div class="col-lg-6">
-                <!-- Google Maps -->
-                <div class="map-responsive">
-                  <iframe class="embed-responsive-item"
-                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3957.5198625373732!2d108.76635456476015!3d-7.295337273736132!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e6f7f2cfb4aab21%3A0x79ecac5cc382507!2sMuktisari%2C%20Sindangsari%2C%20Majenang%2C%20Cilacap%20Regency%2C%20Central%20Java!5e0!3m2!1sen!2sid!4v1629161923056!5m2!1sen!2sid"
-                  style="border: 0"
-                  frameborder="0"
-                  allowfullscreen=""></iframe>
-                <!-- End Google Maps -->
-              </div>
-            </div>
+  <div class="waves mb-2">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+      <path fill="#EDF4FA" fill-opacity="1"
+        d="M0,256L48,261.3C96,267,192,277,288,250.7C384,224,480,160,576,128C672,96,768,96,864,122.7C960,149,1056,203,1152,202.7C1248,203,1344,149,1392,122.7L1440,96L1440,0L1392,0C1344,0,1248,0,1152,0C1056,0,960,0,864,0C768,0,672,0,576,0C480,0,384,0,288,0C192,0,96,0,48,0L0,0Z">
+      </path>
+    </svg>
+  </div>
+
+  <!-- Maps Section -->
+  <section id="maps" class="container col-lg-10 px-4">
+    <div class="row py-4 rounded-3">
+      <div class="col-lg-6 col-12">
+        <h3 class="fw-bold mb-4">Kami disini untuk Anda</h3>
+        <div class="row mb-3">
+          <div class="col-1">
+            <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-shop"
+              viewBox="0 0 20 20">
+              <path
+                d="M2.97 1.35A1 1 0 0 1 3.73 1h8.54a1 1 0 0 1 .76.35l2.609 3.044A1.5 1.5 0 0 1 16 5.37v.255a2.375 2.375 0 0 1-4.25 1.458A2.371 2.371 0 0 1 9.875 8 2.37 2.37 0 0 1 8 7.083 2.37 2.37 0 0 1 6.125 8a2.37 2.37 0 0 1-1.875-.917A2.375 2.375 0 0 1 0 5.625V5.37a1.5 1.5 0 0 1 .361-.976l2.61-3.045zm1.78 4.275a1.375 1.375 0 0 0 2.75 0 .5.5 0 0 1 1 0 1.375 1.375 0 0 0 2.75 0 .5.5 0 0 1 1 0 1.375 1.375 0 1 0 2.75 0V5.37a.5.5 0 0 0-.12-.325L12.27 2H3.73L1.12 5.045A.5.5 0 0 0 1 5.37v.255a1.375 1.375 0 0 0 2.75 0 .5.5 0 0 1 1 0zM1.5 8.5A.5.5 0 0 1 2 9v6h1v-5a1 1 0 0 1 1-1h3a1 1 0 0 1 1 1v5h6V9a.5.5 0 0 1 1 0v6h.5a.5.5 0 0 1 0 1H.5a.5.5 0 0 1 0-1H1V9a.5.5 0 0 1 .5-.5zM4 15h3v-5H4v5zm5-5a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v3a1 1 0 0 1-1 1h-2a1 1 0 0 1-1-1v-3zm3 0h-2v3h2v-3z" />
+            </svg>
           </div>
-          <!-- End Maps Section -->
+          <div class="col">
+            <span class="fw-bold">Alamat : </span>
+            Jl. Muktisari Sindangsari, Kecamatan Majenang,
+            Cilacap Regency, Central Java
+          </div>
+        </div>
+        <div class="row mb-3">
+          <div class="col-1">
+            <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-whatsapp"
+              viewBox="0 0 20 20">
+              <path
+                d="M13.601 2.326A7.854 7.854 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.933 7.933 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.898 7.898 0 0 0 13.6 2.326zM7.994 14.521a6.573 6.573 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.557 6.557 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592zm3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.729.729 0 0 0-.529.247c-.182.198-.691.677-.691 1.654 0 .977.71 1.916.81 2.049.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232z" />
+            </svg>
+          </div>
+          <div class="col"><span class="fw-bold">No. Telepon/WhatsApp : </span> 081285412232</div>
+        </div>
+        <div class="row mb-3">
+          <div class="col-1">
+            <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-envelope"
+              viewBox="0 0 20 20">
+              <path
+                d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2zm13 2.383-4.758 2.855L15 11.114v-5.73zm-.034 6.878L9.271 8.82 8 9.583 6.728 8.82l-5.694 3.44A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.739zM1 11.114l4.758-2.876L1 5.383v5.73z" />
+            </svg>
+          </div>
+          <div class="col"><span class="fw-bold">Email : </span> snowflukesoft@gmail.com</div>
+        </div>
+        <div class="row mb-4">
+          <p class="fw-bold mt-3 mb-3">Hubungi Kami :</p>
+          <div class="gap-2 d-md-block">
+            <a class="btn btn-primary">
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                class="bi bi-telephone-fill" viewBox="0 0 16 16">
+                <path fill-rule="evenodd"
+                  d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z" />
+              </svg>
+            </a>
+            <a class="btn btn-primary">
+              <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor" class="bi bi-whatsapp"
+                viewBox="0 0 16 16">
+                <path
+                  d="M13.601 2.326A7.854 7.854 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.933 7.933 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.898 7.898 0 0 0 13.6 2.326zM7.994 14.521a6.573 6.573 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.557 6.557 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592zm3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.729.729 0 0 0-.529.247c-.182.198-.691.677-.691 1.654 0 .977.71 1.916.81 2.049.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232z" />
+              </svg>
+            </a>
+            <a class="btn btn-primary">
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                class="bi bi-envelope-fill" viewBox="0 0 16 16">
+                <path
+                  d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414.05 3.555zM0 4.697v7.104l5.803-3.558L0 4.697zM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586l-1.239-.757zm3.436-.586L16 11.801V4.697l-5.803 3.546z" />
+              </svg>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-6 col-12">
+        <!-- Google Maps -->
+        <div class="map-responsive">
+          <iframe class="embed-responsive-item"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3957.5198625373732!2d108.76635456476015!3d-7.295337273736132!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e6f7f2cfb4aab21%3A0x79ecac5cc382507!2sMuktisari%2C%20Sindangsari%2C%20Majenang%2C%20Cilacap%20Regency%2C%20Central%20Java!5e0!3m2!1sen!2sid!4v1629161923056!5m2!1sen!2sid"
+            style="border: 0" frameborder="0" allowfullscreen=""></iframe>
+          <!-- End Google Maps -->
+        </div>
+      </div>
+      <hr class="mt-5">
+      <div class="row">
+        <div class="col-12">
+          <ul class="nav justify-content-center">
+            <li class="nav-item">
+              <a class="nav-link text-black" href="#produk">Beli Barang</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-black" href="#">Jual Barang</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-black" href="service.html">Service atau Perbaikan</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-black" href="#">Hubungi Kami</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End Maps -->
 
-    <!-- Footer -->
-    <footer class="my-5">
-      <div class="text-center fw-bold">Copyright - Benadem Service © 2021</div>
-    </footer>
-    <!-- End Footer -->
-    <script src="../js/bootstrap.bundle.min.js"></script>
-  </body>
+  <!-- Footer -->
+  <footer class="container-fluid bg-abu py-4">
+    <div class="text-center fw-bold">Copyright - Benadem Service © 2021</div>
+  </footer>
+  <!-- End Footer -->
+
+  <button type="button" class="btn btn-dark btn-floating btn-lg p-2 rounded-3" id="btn-back-to-top">
+    <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-arrow-up-short"
+      viewBox="0 0 16 16">
+      <path fill-rule="evenodd"
+        d="M8 12a.5.5 0 0 0 .5-.5V5.707l2.146 2.147a.5.5 0 0 0 .708-.708l-3-3a.5.5 0 0 0-.708 0l-3 3a.5.5 0 1 0 .708.708L7.5 5.707V11.5a.5.5 0 0 0 .5.5z" />
+    </svg>
+  </button>
+
+  <script src="../js/script.js"></script>
+  <script src="../js/bootstrap.bundle.min.js"></script>
+</body>
+
 </html>
