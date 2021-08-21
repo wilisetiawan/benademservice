@@ -67,7 +67,7 @@
               </a>
             </li>
             <li class="nav-item mx-2">
-              <a 	onclick="showModal(false, '', 'w', '')" class="nav-link btn btn-success fs-6 text-white px-3">
+              <a onclick="showModal(false, '', 'w', '')" class="nav-link btn btn-success fs-6 text-white px-3">
                 <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor"
                   class="bi bi-whatsapp" viewBox="0 0 20 20">
                   <path
@@ -93,7 +93,7 @@
           <p class="px-2 mb-5 fs-5">AC, Kulkas, Mesin Cuci, Pompa Air? Serahkan kepada kami yang berpengalaman,
             profesionalitas dan mengutamakan kepuasan pelanggan.</p>
           <div class="px-2 justify-content-md-start px-0 px-lg-2 pb-3">
-            <a 	onclick="showModal(false, 'service', 'w', '')" class="btn  btn-danger btn-lg mb-4 px-4 rounded-pill">
+            <a onclick="showModal(false, 'service', 'w', '')" class="btn  btn-danger btn-lg mb-4 px-4 rounded-pill">
               <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" fill="currentColor"
                 class="bi bi-calendar2-date" viewBox="0 0 20 20">
                 <path
@@ -132,7 +132,8 @@
         <div class="col-6 input-group mb-3">
           <input id='qey' type="text" class="rounded-4 me-2 form-control px-4 py-2" placeholder="Cari jenis service"
             aria-label="Jenis service" aria-describedby="button-addon2">
-          <button onclick="cari()" class="btn btn-danger px-4 rounded-4 py-2" type="button" id="button-addon2">Cari</button>
+          <button onclick="cari()" class="btn btn-danger px-4 rounded-4 py-2" type="button"
+            id="button-addon2">Cari</button>
         </div>
       </div>
     </section>
@@ -284,10 +285,9 @@
       <div class="col-lg-6 col-12">
         <!-- Google Maps -->
         <div class="map-responsive">
-          <iframe class="embed-responsive-item"
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31725.20134889867!2d106.69081917344656!3d-6.309606280375611!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69e54c7d08eec5%3A0xfd8cd42289327ef6!2sJl.%20Jembar%20Jaya%2C%20Serua%2C%20Kec.%20Ciputat%2C%20Kota%20Tangerang%20Selatan%2C%20Banten%2015414!5e0!3m2!1sen!2sid!4v1629379461006!5m2!1sen!2sid"
-            style="border:0;" allowfullscreen="">
-          </iframe>
+          <a href="https://goo.gl/maps/NfDFjbafQybx4PqcA">
+            <img src="img/maps.png" alt="Lokasi Benadem Service">
+          </a>
           <!-- End Google Maps -->
         </div>
       </div>
@@ -328,84 +328,46 @@
     </svg>
   </button>
 
-		<!-- Modal -->
-		<div
-			class="modal fade"
-			id="modalKu"
-			tabindex="-1"
-			aria-labelledby="modalKuLabel"
-			aria-hidden="true"
-		>
-			<div class="modal-dialog">
-				<div class="modal-content">
-					<div class="modal-header">
-						<h5 class="modal-title" id="modalKuLabel">
-							Pesan Baru
-						</h5>
-						<button
-							type="button"
-							class="btn-close"
-							data-bs-dismiss="modal"
-							aria-label="Batal"
-						></button>
-					</div>
-					<div class="modal-body">
-						<form id="formNya">
-							<input type="hidden" id="jenis" />
-							<input type="hidden" id="wemail" />
-							<input type="hidden" id="goods" />
-							<div class="mb-3">
-								<label for="pengirim" class="col-form-label"
-									>Nama Lengkap:</label
-								>
-								<input
-									required
-									type="text"
-									class="form-control"
-									id="pengirim"
-								/>
-							</div>
-							<div class="mb-3">
-								<label for="alamat" class="col-form-label"
-									>Alamat:</label
-								>
-								<textarea
-									required
-									class="form-control"
-									id="alamat"
-								></textarea>
-							</div>
-							<div hidden="true" class="mb-3 activeJumlah">
-								<label for="jumlah" class="col-form-label"
-									>Jumlah Barang:</label
-								>
-								<input
-									type="number"
-									class="form-control"
-									id="jumlah"
-								/>
-							</div>
-						</form>
-					</div>
-					<div class="modal-footer">
-						<button
-							type="button"
-							class="btn btn-secondary"
-							data-bs-dismiss="modal"
-						>
-							Batal
-						</button>
-						<button
-							onclick="evalForm(document.getElementById('formNya'))"
-							type="button"
-							class="btn btn-primary"
-						>
-							Kirim
-						</button>
-					</div>
-				</div>
-			</div>
-		</div>
+  <!-- Modal -->
+  <div class="modal fade" id="modalKu" tabindex="-1" aria-labelledby="modalKuLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="modalKuLabel">
+            Pesan Baru
+          </h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Batal"></button>
+        </div>
+        <div class="modal-body">
+          <form id="formNya">
+            <input type="hidden" id="jenis" />
+            <input type="hidden" id="wemail" />
+            <input type="hidden" id="goods" />
+            <div class="mb-3">
+              <label for="pengirim" class="col-form-label">Nama Lengkap:</label>
+              <input required type="text" class="form-control" id="pengirim" />
+            </div>
+            <div class="mb-3">
+              <label for="alamat" class="col-form-label">Alamat:</label>
+              <textarea required class="form-control" id="alamat"></textarea>
+            </div>
+            <div hidden="true" class="mb-3 activeJumlah">
+              <label for="jumlah" class="col-form-label">Jumlah Barang:</label>
+              <input type="number" class="form-control" id="jumlah" />
+            </div>
+          </form>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">
+            Batal
+          </button>
+          <button onclick="evalForm(document.getElementById('formNya'))" type="button" class="btn btn-primary">
+            Kirim
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
 
   <script src="js/bootstrap.bundle.min.js"></script>
   <script src="js/script.js"></script>
@@ -453,8 +415,8 @@
         cat: 'tambahfreon'
       }
     ];
-    
-    function render(s){
+
+    function render(s) {
       el.innerHTML = ''
 
       for (let i = 0; i < s.length; i++) {
@@ -463,8 +425,8 @@
           .split(" ")
           .join("-").split('/')[0
         ];
-      
-      el.innerHTML += `
+
+        el.innerHTML += `
       <div class="col">
           <div class="card m-auto mb-3">
             <div class="estimasi bg-orange-badge position-absolute badge badge-success me-3 px-3 pt-2">
@@ -499,32 +461,41 @@
           </div>
         </div>
       `;
+      }
     }
-  }
 
     render(serv)
 
     const all = () => render(serv)
-    const cuciac = () => render(serv.filter( e => e.cat == 'cuciac'))
-    const pasangac = () => render(serv.filter( e => e.cat == 'pasangac'))
-    const isifreon = () => render(serv.filter( e => e.cat == 'isifreon'))
-    const tambahfreon = () => render(serv.filter( e => e.cat == 'tambahfreon'))
+    const cuciac = () => render(serv.filter(e => e.cat == 'cuciac'))
+    const pasangac = () => render(serv.filter(e => e.cat == 'pasangac'))
+    const isifreon = () => render(serv.filter(e => e.cat == 'isifreon'))
+    const tambahfreon = () => render(serv.filter(e => e.cat == 'tambahfreon'))
+
+    function hapusClass() {
+      var el = document.getElementById("serviceList");
+      el.classList.remove("row-cols-md-4");
+    }
 
     const cari = () => {
       let q = document.querySelector('#qey')
-      if(q.value === '') return render(serv)
+      if (q.value === '') return render(serv)
 
-      let res = serv.filter( e => e.title.toLowerCase().includes(q.value.toLowerCase()))
+      let res = serv.filter(e => e.title.toLowerCase().includes(q.value.toLowerCase()))
 
-      if(res.length == 0){
-        el.innerHTML= '<h3>Maaf, pencarian tidak ditemukan</h3>'
+      if (res.length == 0) {
+        hapusClass()
+        el.innerHTML = `
+        <h2 class="text-center mb-4">Maaf, pencarian tidak ditemukan</h2>
+        <h3 class="text-center fs-5">— Service ${q.value} tidak tersedia —</h3>
+        `
         return
       }
 
       return render(res)
     }
 
-    
+
   </script>
 </body>
 
