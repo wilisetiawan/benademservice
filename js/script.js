@@ -70,7 +70,7 @@ function hubungi(na, a, j, g, n, we) {
 	if (we == "w") {
 		def = "https://api.whatsapp.com/send?phone=6281283051589&text=";
 	} else {
-		def = "https://mail.google.com/mail/?view=cm&fs=1&to=mailto:agungdp2799@gmail.com&su=Halo, Benadem Service!&body=";
+		def = "https://mail.google.com/mail/?view=cm&fs=1&to=agungdp2799@gmail.com&su=Halo, Benadem Service!&body=";
 	}
 
 	let ine = `Halo, Benadem Service! Saya ${na} beralamat di ${a}. Saya ingin `;
