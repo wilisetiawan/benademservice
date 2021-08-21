@@ -146,7 +146,7 @@
         <div class="col-12">
           <ul class="nav justify-content-center">
             <li class="nav-item mx-2 mb-3">
-              <a class="btn btn-primary text-white px-3 py-2" onclick="all()">Semua</a>
+              <a class="btn btn-primary text-white px-3 py-2" onclick="semua()">Semua</a>
             </li>
             <li class="nav-item mx-2 mb-3">
               <a class="btn btn-primary text-white px-3 py-2" onclick="cuciac()">Cuci AC</a>
@@ -466,7 +466,7 @@
 
     render(serv)
 
-    const all = () => render(serv)
+    function semua(){render(serv)}
     const cuciac = () => render(serv.filter(e => e.cat == 'cuciac'))
     const pasangac = () => render(serv.filter(e => e.cat == 'pasangac'))
     const isifreon = () => render(serv.filter(e => e.cat == 'isifreon'))
