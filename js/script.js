@@ -55,17 +55,18 @@ function evalForm(f) {
 }
 
 function s(url) {
-	return console.log(url);
+	let a = document.createElement('a');
+	a.setAttribute('href', url);
+
+	a.style.display = 'none';
+	document.body.appendChild(a);
+
+	a.click();
+	document.body.removeChild(a);
+	
+	return;
 }
 
-// Modal
-
-// index.html
-// Halaman Utama
-// Navbar btn WA, Hero btn, Maps Section WA btn, Menu Bottom (Hubungi Kami)
-
-// Service Page
-// Navbar btn WA, Maps Section WA btn, Menu Bottom (Hubungi Kami)
 function hubungi(na, a, j, g, n, we) {
 	let def;
 	if (we == "w") {
@@ -84,29 +85,6 @@ function hubungi(na, a, j, g, n, we) {
 	if (j === "service") return s(def + ine + serv);
 	if (j === "sell") return s(def + ine + sell);
 	if (j === "buy") return s(def + ine + buy);
+	
 	return s(def + ine + "bertanya-tanya mengenai Benadem Service.");
 }
-
-// Halaman Utama
-// Crousel slide 1
-
-// Service Page
-// Hero
-function gunakanJasa() {
-	// Pesan:
-	// Halo, saya <nama> beralamat di <alamat>.
-	// Saya ingin menggunakan jasa service Benadem Service.
-	alert("GUNAKAN JASA");
-}
-
-// Section Page
-// Card Service
-function jasaService() {
-	// Pesan:
-	// Halo, saya <nama> beralamat di <alamat>.
-	// Saya ingin menggunakan jasa service Benadem Service untuk <nama service - get name>
-	alert("SERVICE");
-}
-
-// FILTER KATEGORI SERVICE
-// PENCARIAN SERVICE
