@@ -1,8 +1,6 @@
-//Get the button
 let mybutton = document.getElementById("btn-back-to-top");
 let myModal = new bootstrap.Modal(document.getElementById("modalKu"));
 
-// When the user scrolls down 20px from the top of the document, show the button
 window.onscroll = function () {
 	scrollFunction();
 };
@@ -17,7 +15,7 @@ function scrollFunction() {
 		mybutton.style.display = "none";
 	}
 }
-// When the user clicks on the button, scroll to the top of the document
+
 mybutton.addEventListener("click", backToTop);
 
 function backToTop() {
@@ -72,7 +70,7 @@ function hubungi(na, a, j, g, n, we) {
 	if (we == "w") {
 		def = "https://api.whatsapp.com/send?phone=6281283051589&text=";
 	} else {
-		def = "mailto:agungdp2799@gmail.com?subject=";
+		def = "https://mail.google.com/mail/?view=cm&fs=1&to=mailto:agungdp2799@gmail.com&su=Halo, Benadem Service!&body=";
 	}
 
 	let ine = `Halo, Benadem Service! Saya ${na} beralamat di ${a}. Saya ingin `;
