@@ -418,7 +418,8 @@
 
     function render(s) {
       el.innerHTML = ''
-
+      el.classList.add("row-cols-md-4");
+      
       for (let i = 0; i < s.length; i++) {
         let raw = s[i].title
           .toLowerCase()
